@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Коллектив");
 </tr>
 <tr>
 	<td>
- <strong>Дубров Сергей Геннадьевич</strong><br>
+        <strong>Дубров Сергей Геннадьевич</strong><br>
 		 Должность: руководитель
 	</td>
 	<td>
