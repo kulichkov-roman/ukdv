@@ -1,8 +1,5 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("news", "N");
-$APPLICATION->SetPageProperty("contact", "Y");
-$APPLICATION->SetPageProperty("SHOW_TOP_RIGHT", "Y");
 $APPLICATION->SetPageProperty("title", "Коллектив УК Дивногорский");
 $APPLICATION->SetTitle("Коллектив");
 ?><table cellpadding="0" cellspacing="0" style="width: 100%;">
@@ -26,4 +23,5 @@ $APPLICATION->SetTitle("Коллектив");
 	</td>
 </tr>
 </tbody>
-</table><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</table>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
