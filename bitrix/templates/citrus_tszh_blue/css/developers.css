@@ -1,0 +1,51 @@
+#schedule-block-container .org-contacts .contacts-table {
+    width: auto;
+    margin: 0;
+    border: none;
+}
+#schedule-block-container .org-contacts .contacts-table td {
+    padding: 1em .5em 0 0;
+    font-size: 12px;
+    vertical-align: top;
+    border: none;
+}
+#schedule-block-container .org-contacts .contacts-table td .phone-big {
+    font-size: 115%;
+}
+#schedule-block-container .org-contacts .contacts-table td.caption {
+    width: 1%;
+    font-weight: bold;
+    text-align: left;
+    white-space: normal;
+}
+#schedule-block-container .org-contacts .contacts-table td.detail-link {
+    padding-top: 0;
+}
+#schedule-block-container .org-contacts .contacts-table td .schedule-table {
+    width: auto;
+    margin: -.1em 0 0 -.2em;
+    border: none;
+    border-collapse: collapse;
+}
+#schedule-block-container .org-contacts .contacts-table td .schedule-table td {
+    padding: .1em;
+    vertical-align: top;
+    border: none;
+}
+#schedule-block-container .org-contacts .contacts-table td .schedule-table td.hours {
+    padding: .1em .3em;
+    text-align: right;
+    white-space: nowrap;
+}
+#schedule-block-container .org-contacts .contacts-table td .schedule-table td.holiday {
+    text-align: left;
+}
+#schedule-block-container .org-contacts .contacts-table td .schedule-table td.deptname {
+    max-width: 15em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#schedule-block-container .org-contacts .contacts-table td .schedule-table td .nowrap {
+    white-space: nowrap;
+}
