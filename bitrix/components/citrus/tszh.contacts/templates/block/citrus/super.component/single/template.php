@@ -14,7 +14,6 @@ if (!is_array($arParams["FIELDS"]))
 <div id="contacts-block-container">
 	<?$arItem = array_shift($arParams["ITEMS"]);?>
 	<div class="org-contacts">
-		<h3 class="alt"><?=$arItem["NAME"]?></h3>
 
 		<table class="contacts-table">
 			<?foreach ($arParams["FIELDS"] as $fieldKey => $field):
