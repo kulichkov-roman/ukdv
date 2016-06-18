@@ -75,7 +75,7 @@ $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.fancybox-1.3.4.pack
 $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/script.js');
 $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/developers.js');
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/colors.css');
-$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/developers.css');
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/developers.css');
 
 $APPLICATION->ShowHead(false);
 
