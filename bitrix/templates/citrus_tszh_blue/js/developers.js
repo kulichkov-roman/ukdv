@@ -1,0 +1,3 @@
+$(function() {
+    $('.certif-fancy').fancybox();
+});

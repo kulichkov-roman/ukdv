@@ -1,3 +1,4 @@
+/*График работы*/
 #schedule-block-container .org-contacts .contacts-table {
     width: auto;
     margin: 0;
@@ -48,4 +49,26 @@
 
 #schedule-block-container .org-contacts .contacts-table td .schedule-table td .nowrap {
     white-space: nowrap;
+}
+
+/*Сертифкикаты*/
+.certif-row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.certif-col {
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.certif-img {
+    width: auto;
+    height: 280px;
+
+}
+h4.certif-text {
+    text-align: center;
+    font-size: 16px;
 }
