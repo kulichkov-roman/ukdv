@@ -20,7 +20,7 @@ if ($APPLICATION->GetProperty('show_top_left', 'N') == 'Y' || strlen($leftColCon
 	?>
 	<div class="fix bottom-blocks<?=($APPLICATION->GetCurPage(false) != SITE_DIR ? ' dotted' : '')?>"><table><tr>
 		<td class="bottom-block left"><?$APPLICATION->IncludeFile(SITE_DIR . "include/contacts.php", Array(), Array("MODE"=>"html"));?></td>
-		<td class="bottom-block middle"></td>
+		<td class="bottom-block middle"><?$APPLICATION->IncludeFile(SITE_DIR . "include/schedule.php", Array(), Array("MODE"=>"html"));?></td>
 		<td class="bottom-block right"><?$APPLICATION->IncludeFile(SITE_DIR . "include/useful_info.php", Array(), Array("MODE"=>"html"));?></td>
 	</tr></table></div>
 	<?
