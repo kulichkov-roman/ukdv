@@ -15,34 +15,28 @@ $APPLICATION->SetTitle("О нас");
 <div class="certificate">
 	<div class="certif-row">
 		<div class="certif-col">
-			<a href="/images/sertifikat-big.jpg" class="certif-fancy">
-				<img src="/images/sertifikat.jpg" alt="" class="certif-img">
+			<a href="/images/sert_1.jpg" class="certif-fancy">
+				<img src="/images/sert_1_sm.jpg" alt="" class="certif-img">
 			</a>
-			<h4 class="certif-text">Сертификат УК ЖФ</h4>
+			<h4 class="certif-text">Лицензия</h4>
 		</div>
 		<div class="certif-col">
-			<a href="/images/sertifikat-big.jpg" class="certif-fancy">
-				<img src="/images/sertifikat.jpg" alt="" class="certif-img">
+			<a href="/images/sert_2.jpg" class="certif-fancy">
+				<img src="/images/sert_2_sm.jpg" alt="" class="certif-img">
 			</a>
-			<h4 class="certif-text">Сертификат УК ЖФ</h4>
+			<h4 class="certif-text">Лицензия</h4>
 		</div>
 		<div class="certif-col">
-			<a href="/images/sertifikat-big.jpg" class="certif-fancy">
-				<img src="/images/sertifikat.jpg" alt="" class="certif-img">
+			<a href="/images/sert_4.jpg" class="certif-fancy">
+				<img src="/images/sert_4_sm.jpg" alt="" class="certif-img">
 			</a>
-			<h4 class="certif-text">Сертификат УК ЖФ</h4>
+			<h4 class="certif-text">Квалификационный аттестат</h4>
 		</div>
 		<div class="certif-col">
-			<a href="/images/sertifikat-big.jpg" class="certif-fancy">
-				<img src="/images/sertifikat.jpg" alt="" class="certif-img">
+			<a href="/images/sert_3.jpg" class="certif-fancy">
+				<img src="/images/sert_3_sm.jpg" alt="" class="certif-img">
 			</a>
-			<h4 class="certif-text">Сертификат УК ЖФ</h4>
-		</div>
-		<div class="certif-col">
-			<a href="/images/sertifikat-big.jpg" class="certif-fancy">
-				<img src="/images/sertifikat.jpg" alt="" class="certif-img">
-			</a>
-			<h4 class="certif-text">Сертификат УК ЖФ</h4>
+			<h4 class="certif-text">Диплом участника</h4>
 		</div>
 	</div>		
 </div> <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
