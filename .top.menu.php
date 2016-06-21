@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О нас", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отчетность", 
+		"/documents/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Информация", 
+		"/useful-info/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кабинет", 
+		"/personal/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Задать вопрос",
+		"/questions-and-answers/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Коллектив", 
+		"/collective/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
