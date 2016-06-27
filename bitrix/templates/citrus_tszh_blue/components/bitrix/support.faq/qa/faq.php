@@ -61,7 +61,7 @@ if (strlen($arElement['PROPERTIES']['author_email']['VALUE']) && check_email($ar
 	<input type="text" name="check" class="search" placeholder="<?=GetMessage("T_FAQ_ENTER_QUESTION_NUMBER")?>"/>
 	<button name="submit"><?=GetMessage("T_FAQ_CHECK")?></button>
 </form>
-<a href="#ask"><strong><?=GetMessage("T_FAQ_ASK_QUESTION")?></strong></a>
+<a class="ask-link" href="#ask"><strong><?=GetMessage("T_FAQ_ASK_QUESTION")?></strong></a>
 <div class="dotted" class="anchor"></div>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:support.faq.section.list",
