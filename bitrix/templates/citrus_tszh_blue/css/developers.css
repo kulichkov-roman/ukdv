@@ -90,3 +90,7 @@ input.name, input.mail, textarea.text-mail {
 .ask-link {
     font-size: 18px;
 }
+
+._green {
+    background-color: #8BA601 !important;
+}

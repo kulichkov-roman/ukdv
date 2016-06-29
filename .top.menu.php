@@ -39,9 +39,7 @@ $aMenuLinks = Array(
 		"Задать вопрос",
 		"/questions-and-answers/",
 		Array(),
-		Array(
-			'color' => 'green'
-		),
+		Array("color" => "_green"),
 		""
 	),
 	Array(

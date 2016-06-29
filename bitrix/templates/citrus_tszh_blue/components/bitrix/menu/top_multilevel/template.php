@@ -2,6 +2,8 @@
 
 $this->setFrameMode(true);
 
+//echo "<pre>"; var_dump($arResult); echo "</pre>";
+
 if (!empty($arResult))
 {
 
@@ -35,6 +37,10 @@ if (!empty($arResult))
 		if ($arItem['SELECTED'] || $key == $selectedParent)
 			$itemClasses[] = 'selected';
 		$class = count($itemClasses) > 0 ? ' class="' . implode(' ', $itemClasses) . '"' : '';
+		if(strlen($arItem['PARAMS']['color']) > 0)
+		{
+			$class .= ' class="_green"';
+		}
 		echo "\t<li$class><a href=\"{$arItem["LINK"]}\">{$arItem["TEXT"]}</a>";
 
 		if ($arItem['IS_PARENT'])
