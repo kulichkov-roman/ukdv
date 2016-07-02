@@ -36,18 +36,18 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Задать вопрос",
-		"/questions-and-answers/",
+		"Коллектив",
+		"/collective/",
 		Array(),
-		Array("color" => "_green"),
+		Array(),
 		""
 	),
 	Array(
-		"Коллектив", 
-		"/collective/", 
-		Array(), 
-		Array(), 
-		"" 
-	)
+		"Задать вопрос",
+		"/questions-and-answers/",
+		Array(),
+		Array("color" => " _green"),
+		""
+	),
 );
 ?>

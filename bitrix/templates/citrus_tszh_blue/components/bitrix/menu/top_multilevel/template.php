@@ -2,11 +2,8 @@
 
 $this->setFrameMode(true);
 
-//echo "<pre>"; var_dump($arResult); echo "</pre>";
-
 if (!empty($arResult))
 {
-
 	$selectedParent = -1;
 	$currentParent = -1;
 	foreach ($arResult as $key => $arItem)
@@ -33,14 +30,21 @@ if (!empty($arResult))
 		if (strlen($arItem['PARAMS']['class']) > 0)
 			$itemClasses[] = $arItem['PARAMS']['class'];
 		if ($key == count($arResult)-1)
-			$itemClasses[] = 'last';
+			$itemClasses[] = 'last'; 
 		if ($arItem['SELECTED'] || $key == $selectedParent)
 			$itemClasses[] = 'selected';
-		$class = count($itemClasses) > 0 ? ' class="' . implode(' ', $itemClasses) . '"' : '';
-		if(strlen($arItem['PARAMS']['color']) > 0)
-		{
-			$class .= ' class="_green"';
+
+		$colorClass = '';
+		if(strlen($arItem['PARAMS']['color']) > 0) {
+			$colorClass .= $arItem['PARAMS']['color'];
 		}
+
+		if(count($itemClasses) > 0) {
+			$class = ' class="' . implode(' ', $itemClasses) . $colorClass.'"';
+		} else {
+			$class = ' class="' . $colorClass .'"';
+		}
+
 		echo "\t<li$class><a href=\"{$arItem["LINK"]}\">{$arItem["TEXT"]}</a>";
 
 		if ($arItem['IS_PARENT'])
@@ -56,5 +60,4 @@ if (!empty($arResult))
 
 	echo "</ul>\n";
 }
-
 ?>
