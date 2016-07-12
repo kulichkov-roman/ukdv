@@ -1,6 +1,13 @@
 <?
 $aMenuLinks = Array(
 	Array(
+		"Платные услуги",
+		"price_list.php",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
 		"Правила проживания в многоквартирных домах", 
 		"pravila_prozhivaniya_v_mnogokvartirnyh_domah.php", 
 		Array(), 
