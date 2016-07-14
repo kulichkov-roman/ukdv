@@ -1,0 +1,138 @@
+#contacts-page-container {
+	overflow: hidden;
+}
+#contacts-page-container #tabs-container {
+	overflow: hidden;
+}
+#contacts-page-container #tabs-container .tab {
+	float: left;
+	margin: 0 20px 10px 0;
+	padding: 10px 35px;
+	cursor: pointer;
+	white-space: nowrap;
+	font-size: 14px;
+	line-height: 14px;
+	color: #333;
+	background: url(images/tab-bg.gif) no-repeat 10px 13px;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-radius: 5px;
+}
+#contacts-page-container #tabs-container .tab:last-child {
+	margin-right: 0;
+}
+#contacts-page-container #tabs-container .tab.active {
+	background: #f4f4f4 url(images/tab-active-bg.gif) no-repeat 10px 13px;
+	border-top: 1px solid #c7c7c7;
+	border-left: 1px solid #c7c7c7;
+}
+
+#contacts-page-container #orgs-contacts-container .org-contacts {
+	display: none;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts.active {
+	display: block;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts h3 {
+	margin: 15px 0 10px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 100%;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts h3.alt {
+	font-size: 20px;
+	color: #8ba601;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .org-contacts-table {
+	border: none;
+	border-collapse: collapse;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .org-contacts-table .org-requisites-td {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: top;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .org-contacts-table .org-map-td {
+	width: 100%;
+	margin: 0;
+	padding: 0 0 0 15px;
+	border: none;
+	vertical-align: top;
+}
+
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table {
+	width: auto;
+	margin: 0;
+	border: none;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .map-container {
+	/*float: right;*/
+	margin-top: 65px;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td {
+	padding: .5em .5em .5em 0;
+	vertical-align: top;
+	border: none;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td.caption {
+	width: 1%;
+	font-weight: bold;
+	text-align: right;
+	white-space: nowrap;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .phone-big {
+	font-size: 115%;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table {
+	width: auto;
+	margin: -.1em 0 0 -.2em;
+	border: none;
+	border-collapse: collapse;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td {
+	border: none;
+	padding: .1em;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td .day-item {
+	white-space: nowrap;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td.hours {
+   	padding: .1em .3em;
+	text-align: right;
+	white-space: nowrap;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td.holiday {
+	text-align: left;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td.hours,
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td.holiday {
+	padding: .1em .5em;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td.deptname {
+	max-width: 15em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td .schedule-table td .nowrap {
+	white-space: nowrap;
+}
+
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td.write-us {
+	padding: 15px 0 25px;
+	text-align: center;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td.write-us a.write-us {
+	padding: 8px 50px;
+	text-align: center;
+	font-size: 16px;
+	color: #3399ff;
+	text-decoration: none;
+	background: #eff3f5 url(images/write-us-bg.png) no-repeat 20px 10px;
+	border-radius: 7px;
+}
+#contacts-page-container #orgs-contacts-container .org-contacts .group-table td.write-us a.write-us:hover {
+	text-decoration: underline;
+}

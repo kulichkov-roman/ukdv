@@ -1,0 +1,32 @@
+#contacts-page-feedback {
+	overflow: hidden;
+}
+#contacts-page-feedback h3 {
+	margin: 35px 0 20px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 100%;
+}
+#contacts-page-feedback div.mf-name,
+#contacts-page-feedback div.mf-email,
+#contacts-page-feedback div.mf-captcha,
+#contacts-page-feedback div.mf-message {width:80%; padding-bottom:0.4em;}
+#contacts-page-feedback div.mf-name input,
+#contacts-page-feedback div.mf-email input {width:60%;}
+#contacts-page-feedback div.mf-message textarea {width: 60%;}
+#contacts-page-feedback span.mf-req {color:red;}
+#contacts-page-feedback div.mf-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+
+#contacts-page-feedback .left-fields-container {
+	float: left;
+	width: 350px;
+}
+#contacts-page-feedback .left-fields-container td {
+	border: none;
+}
+#contacts-page-feedback .right-fields-container {
+	margin-left: 365px;
+}
+#contacts-page-feedback button[type="submit"] {
+	float: right;
+}
